@@ -1,239 +1,387 @@
-# Global Superstore | Sales & Profitability Analysis Dashboard
+# Global Superstore | Sales & Profitability Dashboard
 
-**Power BI | Business Intelligence | Sales Analytics | Profitability Analysis | Data Visualization**
+**Microsoft Power BI | Business Intelligence | Sales Analytics | Profitability Analysis | Interactive Data Visualization**
 
 ## Project Overview
 
-**How can businesses use interactive dashboards to understand sales performance, identify profitability patterns, and make more informed decisions?**
+**How can organizations turn complex sales data into actionable business insights?**
 
-This academic business intelligence project uses **Microsoft Power BI** to analyze Global Superstore sales and profitability across products, geographic markets, countries, regions, and customer segments.
+Businesses operating across multiple geographic markets, product categories, and customer segments need a clear understanding of where revenue is generated, how profitability varies, and which areas deserve management attention.
 
-The project transforms transactional business data into an interactive dashboard designed to support performance monitoring, comparative analysis, and data-driven decision-making.
+This academic business intelligence project uses **Microsoft Power BI** to analyze the Global Superstore dataset through an interactive sales and profitability dashboard.
 
-By combining multiple business dimensions into one reporting interface, the dashboard provides a centralized view of sales and profit performance.
+The dashboard brings together product performance, geographic profitability, market distribution, customer segmentation, and regional sales reporting into a centralized analytical interface.
+
+The objective is to demonstrate how business intelligence tools can transform transactional data into accessible information that supports performance monitoring and informed business decisions.
+
+## Dashboard Preview
+
+![Global Superstore Sales and Profitability Dashboard](./Screenshot%202026-11-03%20151252.png)
+
+*Interactive Power BI dashboard showing sales and profit across product subcategories, countries, markets, customer segments, and regions.*
+
+The dashboard includes six reporting elements and a market selection slicer for interactive analysis.
+
+## Project Highlights
+
+| Area | Dashboard Finding |
+|---|---|
+| Leading Visible Product Subcategory | Phones |
+| Highest Displayed Country Profit | United States — approximately 87.37K |
+| Second-Highest Displayed Country Profit | China — approximately 44.56K |
+| Third-Highest Displayed Country Profit | United Kingdom — approximately 36.96K |
+| Largest Displayed Market Sales Share | APAC — 35.19% |
+| Leading Customer Segment by Sales | Consumer |
+| Dashboard Visuals | 6 |
+| Interactive Filtering | Market Slicer |
+
+*These observations are based on the dashboard screenshot and reflect its displayed data and filter context. They are not independently verified against the underlying dataset.*
 
 ## Business Problem
 
-Organizations operating across multiple markets need to understand not only where revenue is generated, but also how profitability varies across products, customers, and geographic locations.
+Organizations need more than total sales figures to understand business performance.
 
-Without consolidated reporting, decision-makers may struggle to:
+High sales do not automatically translate into high profitability, and business performance can vary significantly across products, markets, and customer segments.
 
-- Compare sales and profitability across product categories.
-- Identify markets contributing the greatest sales.
-- Understand geographic differences in profit.
-- Evaluate performance across customer segments.
-- Examine regional sales distribution.
-- Filter results efficiently to investigate individual markets.
+Without consolidated reporting, decision-makers may face challenges such as:
 
-This project demonstrates how an interactive business intelligence dashboard can support these analytical needs.
+- Identifying products that generate strong sales but comparatively low profit.
+- Comparing performance across geographic markets.
+- Understanding which countries contribute most to profitability.
+- Evaluating differences between customer segments.
+- Monitoring regional sales contributions.
+- Accessing relevant information without reviewing multiple disconnected reports.
+
+This project addresses these analytical needs by bringing several performance perspectives into one interactive Power BI dashboard.
 
 ## Project Objectives
 
-1. **Analyze Sales Performance:** Compare sales across products, markets, and customer segments.
-2. **Evaluate Profitability:** Examine how profit varies by category, country, and segment.
-3. **Understand Geographic Performance:** Explore sales and profit across different markets and regions.
-4. **Support Interactive Exploration:** Enable users to filter dashboard results by market.
-5. **Improve Business Reporting:** Present multiple performance indicators in a centralized visual interface.
+1. **Evaluate Product Performance:** Compare sales and profit across product subcategories.
+2. **Analyze Geographic Profitability:** Examine profit contributions across countries.
+3. **Understand Market Distribution:** Identify the relative sales contribution of geographic markets.
+4. **Compare Customer Segments:** Evaluate sales and profitability across Consumer, Corporate, and Home Office segments.
+5. **Support Regional Reporting:** Present sales contributions by person and region.
+6. **Enable Interactive Analysis:** Allow users to explore market-specific information through dashboard filtering.
 
 ## Tools & Technologies
 
 | Category | Tools and Techniques |
 |---|---|
-| Business Intelligence | Microsoft Power BI |
-| Data Source | Global Superstore dataset |
-| Data Visualization | Bar Chart, Column Chart, Pie Chart, Treemap, Table |
+| Business Intelligence | Microsoft Power BI Desktop |
+| Dataset | Global Superstore |
+| Data Analysis | Sales and Profit Comparisons |
+| Visualizations | Clustered Bar Chart, Pie Chart, Treemap, Clustered Column Chart, Table |
 | Interactive Reporting | Market Slicer |
-| Analytical Measures | Sales, Profit, Sales Percentage |
-| Business Analysis | Product Performance, Geographic Analysis, Customer Segmentation |
-| Report Development | Dashboard Layout and Visual Configuration |
+| Analytical Dimensions | Subcategory, Country, Market, Segment, Region, Person |
+| Performance Measures | Sales, Profit, Sales Percentage |
+| Business Skills | KPI Analysis, Performance Reporting, Profitability Analysis, Customer Segmentation |
 
-## Dashboard Overview
+## Dashboard Analysis
 
-The dashboard consists of six interconnected reporting elements.
+### 1. Product Sales & Profitability Analysis
 
-### 1. Sales & Profit by Product Category
+**Visualization: Clustered Bar Chart**
 
-**Visualization:** Clustered Bar Chart
+The dashboard compares sales and profit across product subcategories, including Phones, Bookcases, Chairs, Copiers, Appliances, Storage, and Tables.
 
-This visual compares sales and profit across product categories and subcategories.
+#### Key Observation
 
-**Business Purpose:**
+Phones generate the highest sales among the visible product subcategories.
 
-- Compare product performance.
-- Explore differences between sales volume and profitability.
-- Identify product areas requiring further investigation.
-- Support product portfolio analysis.
+However, sales and profit contributions differ across subcategories, demonstrating why organizations should evaluate both measures when reviewing product performance.
 
-### 2. Sales Distribution by Market
+#### Business Implications
 
-**Visualization:** Pie Chart
+This analysis can help businesses:
 
-This visual displays the distribution of sales across geographic markets.
+- Identify high-revenue product categories.
+- Investigate products with relatively weak profit contributions.
+- Support product portfolio reviews.
+- Prioritize additional profitability analysis.
 
-**Business Purpose:**
+A product with strong sales may still require investigation if its profit contribution is comparatively low.
 
-- Compare market contributions to total sales.
-- Understand the geographic distribution of revenue.
-- Support market-level performance analysis.
+### 2. Geographic Profitability Analysis
 
-### 3. Regional Sales Performance
+**Visualization: Treemap**
 
-**Visualization:** Table
+The treemap displays profit contributions across countries.
 
-The table displays:
+#### Key Findings
+
+| Country | Displayed Profit |
+|---|---:|
+| United States | 87.37K |
+| China | 44.56K |
+| United Kingdom | 36.96K |
+| India | 35.39K |
+| Mexico | 32.77K |
+| Australia | 32.24K |
+| Germany | 29.32K |
+| France | 27.42K |
+
+The United States contributes the highest displayed profit, followed by China and the United Kingdom.
+
+The variation across countries illustrates the importance of geographic profitability analysis.
+
+#### Business Implications
+
+Country-level reporting can support:
+
+- Geographic performance comparisons.
+- Market prioritization.
+- Identification of countries requiring additional investigation.
+- Evaluation of profit concentration across markets.
+
+These results show profit contributions, not necessarily profit margins or overall market efficiency.
+
+### 3. Market Sales Distribution
+
+**Visualization: Pie Chart**
+
+The pie chart illustrates the percentage distribution of sales across four displayed market groups.
+
+#### Key Findings
+
+| Market | Sales Share |
+|---|---:|
+| APAC | 35.19% |
+| US | 22.72% |
+| LATAM | 22.41% |
+| EU | 19.69% |
+
+*Percentages are rounded as displayed in Power BI.*
+
+APAC represents the largest share of sales in this visual.
+
+The remaining sales are distributed across the US, LATAM, and EU markets.
+
+#### Business Implications
+
+Market distribution analysis can help organizations:
+
+- Understand geographic revenue concentration.
+- Compare relative market contributions.
+- Support market-level reporting.
+- Identify opportunities for deeper geographic analysis.
+
+A larger sales share does not necessarily mean a market has the highest profit margin.
+
+### 4. Customer Segment Performance
+
+**Visualization: Clustered Column Chart**
+
+The dashboard compares sales and profit across three customer segments:
+
+- Consumer
+- Corporate
+- Home Office
+
+#### Key Observation
+
+The Consumer segment generates the highest displayed sales, followed by Corporate and Home Office.
+
+The visualization also shows profit contributions for each segment.
+
+#### Business Implications
+
+Customer segmentation analysis can support:
+
+- Evaluation of revenue concentration.
+- Comparison of customer segment profitability.
+- Development of targeted business strategies.
+- Identification of segments requiring additional analysis.
+
+Further investigation into segment-level profit margins would help determine whether higher sales translate into proportionally stronger profitability.
+
+### 5. Regional Sales Reporting
+
+**Visualization: Table**
+
+The dashboard includes a reporting table with the following fields:
 
 - Person
 - Region
-- Total Sales
+- Sum of Sales
 - Sales Percentage
 
-**Business Purpose:**
+#### Business Purpose
 
-- Examine regional sales performance.
-- Compare sales contributions.
-- Support more detailed reporting beyond high-level charts.
+This table provides a more detailed view of sales contributions across individuals and regions.
 
-### 4. Profitability by Country
+It complements the graphical visualizations by allowing users to examine specific records and percentages.
 
-**Visualization:** Treemap
+#### Business Implications
 
-This visual represents profit across countries using relative-sized areas.
+Detailed tabular reporting can support:
 
-**Business Purpose:**
+- Regional performance monitoring.
+- Sales contribution analysis.
+- Comparative reporting.
+- More targeted business investigations.
 
-- Compare country-level profit contributions.
-- Explore geographic profitability patterns.
-- Identify markets for further financial analysis.
+### 6. Interactive Market Filtering
 
-### 5. Sales & Profit by Customer Segment
+**Visualization: Market Slicer**
 
-**Visualization:** Clustered Column Chart
+The dashboard includes selectable geographic market options such as:
 
-This visual compares sales and profit across customer segments.
+- Africa
+- LATAM
+- APAC
+- US
+- Canada
+- EMEA
+- EU
 
-**Business Purpose:**
+#### Business Purpose
 
-- Evaluate segment-level business performance.
-- Compare sales generation with profit contribution.
-- Support customer segmentation analysis.
+The slicer provides a way to focus analysis on selected markets without creating separate reports.
 
-### 6. Interactive Market Filter
+Interactive filtering helps users move from a broad performance overview toward more targeted investigation.
 
-**Visualization:** Market Slicer
+## Analytical Methodology
 
-The slicer enables market-specific exploration of the dashboard.
+### Step 1: Identify Business Questions
 
-**Business Purpose:**
+The analysis focuses on business performance questions involving products, markets, countries, regions, and customer segments.
 
-- Focus analysis on selected geographic markets.
-- Support interactive business reporting.
-- Reduce the need for separate static reports.
+### Step 2: Organize Analytical Dimensions
 
-## Analytical Approach
-
-### Step 1: Define Business Questions
-
-The dashboard was structured around questions related to sales distribution, product profitability, geographic performance, and customer segments.
-
-### Step 2: Organize Reporting Dimensions
-
-The analysis uses business dimensions including:
-
-- Product category and subcategory
-- Market
-- Country
-- Region
-- Customer segment
-- Person
+The dashboard uses multiple business dimensions to support comparisons across different operational and commercial perspectives.
 
 ### Step 3: Configure Performance Measures
 
-Sales and profit measures are used across the dashboard to support comparative analysis.
+Sales, profit, and sales percentage are used to examine performance and relative contributions.
 
-A sales percentage field is also included in the regional reporting table.
+### Step 4: Develop Visualizations
 
-### Step 4: Develop Dashboard Visualizations
+Different chart types are used for different analytical purposes:
 
-Different visualization types were selected to communicate different business relationships.
-
-Bar and column charts support comparisons, while the pie chart and treemap illustrate distributions across markets and countries.
-
-### Step 5: Enable Interactive Analysis
-
-A market slicer was incorporated to allow users to explore selected market-level data.
-
-## Business Insights Supported
-
-The dashboard enables several types of analysis:
-
-| Analytical Area | Business Question |
+| Visualization | Analytical Purpose |
 |---|---|
-| Product Performance | Which product categories generate the most sales and profit? |
-| Market Performance | How are sales distributed across markets? |
-| Geographic Profitability | Which countries contribute the most or least profit? |
-| Customer Segmentation | How do sales and profit compare across customer segments? |
-| Regional Reporting | How are sales distributed across people and regions? |
-| Interactive Analysis | How does the performance view change when a market is selected? |
+| Clustered Bar Chart | Compare product sales and profit |
+| Treemap | Compare country-level profit contributions |
+| Pie Chart | Show relative market sales distribution |
+| Clustered Column Chart | Compare customer segment performance |
+| Table | Present detailed regional sales information |
+| Slicer | Support interactive market selection |
 
-These are questions the dashboard is designed to investigate. Specific findings require reviewing the underlying data and rendered visuals.
+### Step 5: Interpret Business Performance
 
-## Potential Business Applications
+The dashboard is used to identify patterns, compare business dimensions, and formulate questions for further investigation.
 
-**Sales Performance Monitoring**
+## Key Business Insights
 
-Provide a consolidated view of sales activity across multiple business dimensions.
+### Insight 1: Product Sales and Profitability Should Be Evaluated Together
 
-**Profitability Analysis**
+Phones lead sales among the visible subcategories, but the dashboard also demonstrates that product revenue and profit vary.
 
-Explore whether sales performance aligns with profit contribution across products and geographic areas.
+**Business implication:** Product performance reviews should consider both sales contribution and profitability.
 
-**Market Evaluation**
+### Insight 2: Profit Contributions Vary Across Countries
 
-Support geographic comparisons to identify markets requiring additional investigation.
+The United States, China, and the United Kingdom show the largest displayed country-level profit contributions.
 
-**Customer Segment Analysis**
+**Business implication:** Geographic profitability analysis can help identify markets for further investment evaluation or operational investigation.
 
-Evaluate sales and profitability patterns across different customer segments.
+### Insight 3: APAC Represents the Largest Displayed Market Sales Share
 
-**Management Reporting**
+APAC accounts for approximately 35.19% of the market sales distribution shown in the pie chart.
 
-Present business performance information through a centralized, interactive reporting interface.
+**Business implication:** Understanding geographic sales concentration can support market-level planning and performance reviews.
 
-## Recommendations for Further Analysis
+### Insight 4: Consumer Customers Generate the Highest Displayed Sales
 
-The following enhancements could extend the dashboard's analytical capabilities:
+The Consumer segment leads the sales comparison, followed by Corporate and Home Office.
 
-1. **Add Profit Margin Metrics:** Compare profitability relative to sales rather than relying on absolute profit alone.
-2. **Introduce Time-Series Analysis:** Evaluate monthly, quarterly, and annual sales trends.
-3. **Analyze Discount Impact:** Investigate whether discounting is associated with reduced profitability.
-4. **Add Executive KPI Cards:** Display total sales, total profit, profit margin, and order counts.
-5. **Develop Drill-Through Reporting:** Enable deeper investigation of underperforming markets and product categories.
-6. **Include Performance Targets:** Compare actual results against defined business goals.
+**Business implication:** Segment-level analysis can help organizations understand customer revenue distribution and evaluate profitability opportunities.
 
-These are proposed improvements, not features already implemented in the dashboard.
+### Insight 5: Interactive Reporting Improves Analytical Accessibility
+
+The dashboard combines multiple business dimensions with market filtering.
+
+**Business implication:** Interactive dashboards can make performance information easier to explore and communicate to stakeholders.
+
+## Business Recommendations
+
+Based on the dashboard's analytical capabilities, several opportunities for further investigation emerge.
+
+| Recommendation | Business Rationale |
+|---|---|
+| Analyze Product Profit Margins | Determine whether high-sales products also deliver strong profitability |
+| Investigate Geographic Profit Differences | Understand factors contributing to variations in country-level profit |
+| Evaluate Market Concentration | Assess exposure to markets contributing a large share of sales |
+| Compare Segment Profitability | Determine which customer segments generate stronger returns relative to sales |
+| Monitor Regional Contributions | Support regional performance reviews and targeted investigation |
+| Expand KPI Reporting | Provide a broader view of operational and financial performance |
+
+These recommendations represent potential analytical next steps. They were not implemented or measured as business interventions.
+
+## Opportunities for Future Enhancement
+
+The dashboard could be expanded through the following improvements:
+
+**1. Executive KPI Cards**
+
+Add headline metrics such as total sales, total profit, profit margin, and order count.
+
+**2. Time-Series Performance Analysis**
+
+Introduce monthly, quarterly, and annual trends to evaluate performance changes over time.
+
+**3. Profit Margin Analysis**
+
+Calculate profit as a percentage of sales to support more meaningful profitability comparisons.
+
+**4. Discount Impact Analysis**
+
+Explore whether discounting is associated with changes in profitability.
+
+**5. Drill-Through Reporting**
+
+Enable users to investigate individual markets, countries, or product categories in greater detail.
+
+**6. Performance Targets**
+
+Compare actual sales and profit against defined business targets.
 
 ## Project Limitations
 
-- The report provides a descriptive view of business performance rather than a predictive forecasting model.
-- The dashboard does not independently establish the causes of profitability differences.
-- The report contains one page with six visuals.
-- Additional analysis would be required to validate specific business recommendations.
-- No operational or financial improvement from deploying the dashboard was measured.
+This dashboard is a descriptive business intelligence project.
 
-## Project File
+- It presents sales and profitability information but does not establish causal relationships.
+- Country-level profit values do not indicate profit margins.
+- The report does not include forecasting or predictive modeling.
+- Specific business improvements were not implemented or measured.
+- Findings reflect the displayed report and its filter context.
+- Additional analysis would be needed before making operational or investment decisions.
 
-### [View the Power BI Dashboard File](./CHRISTINE%20MODULE%206%281%29.pbix)
+## Project Files
 
-**File:** `CHRISTINE MODULE 6(1).pbix`
+### Power BI Dashboard
 
-To explore the dashboard, download the `.pbix` file and open it using **Microsoft Power BI Desktop**.
+**[Download the Power BI Dashboard (.pbix)](./CHRISTINE%20MODULE%206%281%29.pbix)**
 
-GitHub does not natively provide an interactive preview of Power BI Desktop reports.
+The original Power BI report contains the dashboard visuals and report configuration.
+
+To explore the dashboard interactively:
+
+1. Download the `.pbix` file.
+2. Open it in Microsoft Power BI Desktop.
+3. Navigate to the **Globalsuperstore Dashboard** report page.
+4. Use the market slicer to explore the available reporting views.
+
+GitHub may not preview large Power BI files directly. The dashboard screenshot above provides a visual preview without requiring Power BI Desktop.
+
+### Dashboard Screenshot
+
+**[View the Dashboard Screenshot](./Screenshot%202026-11-03%20151252.png)**
 
 ## Skills Demonstrated
 
-`Microsoft Power BI` · `Business Intelligence` · `Data Visualization` · `Sales Analysis` · `Profitability Analysis` · `Customer Segmentation` · `Geographic Analysis` · `KPI Reporting` · `Interactive Dashboards` · `Business Analytics`
+`Microsoft Power BI` · `Business Intelligence` · `Data Visualization` · `Sales Analytics` · `Profitability Analysis` · `Customer Segmentation` · `Geographic Analysis` · `KPI Reporting` · `Interactive Dashboards` · `Business Analysis` · `Management Reporting`
 
 ---
 
-**Project Focus:** Using interactive business intelligence reporting to explore sales, profitability, and performance across products, customers, and geographic markets.
+**Project Focus:** Transforming sales and profitability data into an interactive business intelligence dashboard that supports performance analysis, business reporting, and informed decision-making.
